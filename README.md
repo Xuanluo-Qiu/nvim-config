@@ -1,4 +1,11 @@
-# 💤 LazyVim
+# NvimConfig
+### Change from [LazyVim](https://github.com/LazyVim/LazyVim)
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+| Key Map             | Modes   | Markup              |
+| ------------------- | ------- | ------------------- |
+|<c-,>                | (N/I/V) | Terminal            |
+
+## Install
+```
+$ git clone https://github.com/Xuanluo-Qiu/nvim-config ~/.config/nvim
+```
