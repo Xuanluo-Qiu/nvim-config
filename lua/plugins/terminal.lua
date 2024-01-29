@@ -9,10 +9,14 @@ return {
         terminal_mappings = true, -- whether or not the open mapping applies in the opened terminals
         persist_size = true,
         persist_mode = true, -- if set to true (default) the previous terminal mode will be remembered
-        direction = "horizontal", --   direction = 'vertical' | 'horizontal' | 'tab' | 'float',
         auto_scroll = true, -- automatically scroll to the bottom on terminal output
-        open_mapping = "<c-,>",
+        border = "rounded",
       })
     end,
+    keys = {
+      { "<leader>th", "<cmd>ToggleTerm size=15 direction=horizontal<cr>", desc = "Open terminal by horizontal" },
+      { "<leader>tv", "<cmd>ToggleTerm size=50 direction=vertical<cr>", desc = "Open terminal by vertical" },
+      { "<C-/>", "<cmd>ToggleTerm direction=float<cr>", desc = "Open terminal by float" },
+    },
   },
 }
