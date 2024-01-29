@@ -3,8 +3,8 @@
 
 | Key Map             | Modes   | Markup                     |
 | ------------------- | ------- | -------------------------- |
-| <space>th           | (N/I/V) | Open terminal by horizontal|
-| <space>tv           | (N/I/V) | Open terminal by vertical  |
+| `<space>th`           | (N/I/V) | Open terminal by horizontal|
+| `<space>tv`           | (N/I/V) | Open terminal by vertical  |
 
 ## Install
 ```
