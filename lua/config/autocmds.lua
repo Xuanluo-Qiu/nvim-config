@@ -19,6 +19,6 @@ vim.api.nvim_set_keymap("t", "<D-v>", "<C-R>+", { noremap = true, silent = true 
 vim.api.nvim_set_keymap("v", "<D-v>", "<C-R>+", { noremap = true, silent = true })
 
 vim.g.neovide_hide_mouse_when_typing = true
-vim.g.neovide_fullscreen = true
-vim.o.guifont = "Maple Mono SE NF:h14"
+-- vim.g.neovide_fullscreen = true
+vim.o.guifont = "ComicShannsMono Nerd Font:h14"
 vim.g.neovide_cursor_vfx_mode = "railgun"
